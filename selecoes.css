@@ -1,0 +1,92 @@
+header h1 {
+    color: white;
+    margin-left: 10%;
+    text-align: left;
+    font-weight: bolder;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-color: rgb(142, 27, 62);
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(105, 22, 47), rgb(142, 27, 62));
+}
+
+body {
+    margin: 0;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+a:link {
+    color: bisque
+}
+a:visited{
+    color:bisque
+}
+
+a:hover {
+    color: rgb(236, 146, 72)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+
+}
+li a {
+    color: white;
+    text-decoration: none
+}
+#footer p {
+    color: azure
+}
+
+#footer .logo-footer {
+    height: 175px;
+    width: 125px;
+}
+
+#footer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 1em;
+    clear: right;
+}
+
+#footer p {
+    display: flex;
+}
+#footer .texto-rodape {
+    display: inline-block;
+    width: calc(100% - 215px - 2em - 2em);
+    margin-left: 1em;
+    vertical-align: top;
+}
+img{
+    display: block;
+    margin: 0px auto;
+    max-width:500px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+   }
+.sheik{
+    height: 266px;
+    width: 400px;
+}
