@@ -23,20 +23,26 @@ header {
 body {
     margin: 0;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'PT Sans', sans-serif;
     text-align: center;
 }
+
 a:link {
     color: bisque
 }
-a:visited{
-    color:bisque
+
+a:visited {
+    color: bisque
 }
 
 a:hover {
     color: rgb(236, 146, 72)
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,22 +53,10 @@ ul {
     font-weight: 1000;
 
 }
+
 li a {
     color: white;
     text-decoration: none
-}
-footer {
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0, .7);
-    padding: 1em;
-}
-footer h3{
-    text-align: center;
-}
-footer ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;  
 }
 
 footer {
@@ -70,15 +64,33 @@ footer {
     background-color: rgba(0, 0, 0, .7);
     padding: 1em;
 }
-img{
+
+footer h3 {
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 1em;
+}
+
+img {
     display: block;
     margin: 0px auto;
-    max-width:500px;
-    max-height:500px;
+    max-width: 500px;
+    max-height: 500px;
     width: auto;
     height: auto;
-   }
-.sheik{
+}
+
+.sheik {
     height: 266px;
     width: 400px;
 }

@@ -22,19 +22,23 @@ header {
 body {
     margin: 0;
 }
+
 h1 {
     font-family: 'PT Sans', sans-serif;
 }
+
 a:link {
     color: bisque
 }
-a:visited{
-    color:bisque
+
+a:visited {
+    color: bisque
 }
 
 a:hover {
     color: rgb(236, 146, 72)
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,17 +49,20 @@ ul {
     font-weight: 1000;
 
 }
+
 li a {
     color: white;
     text-decoration: none
 }
-footer h3{
+
+footer h3 {
     text-align: center;
 }
-footer ul{
+
+footer ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 }
 
 footer {
@@ -63,7 +70,8 @@ footer {
     background-color: rgba(0, 0, 0, .7);
     padding: 1em;
 }
-th{
+
+th {
     border: 3px solid rgb(116, 116, 116);
     padding-top: 0;
     padding-left: 4px;
@@ -75,10 +83,12 @@ th{
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
-.titulo{
+
+.titulo {
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -86,7 +96,9 @@ table{
     margin: 0;
     padding: 10px;
 }
-.legenda, p{
+
+.legenda,
+p {
     display: flex;
     justify-content: space-between;
     justify-content: center;
@@ -94,47 +106,57 @@ table{
     font-size: 15px;
     margin: 7px;
 }
-.confrontos ul{
+
+.confrontos ul {
     flex-direction: column;
     justify-content: center;
     height: 200px;
     width: 300px;
 }
+
 main {
     margin-left: 5%;
     margin-right: 5%;
 }
-.bandeira{
+
+.bandeira {
     justify-content: flex-start;
     width: 30px;
     height: 20px;
 }
-.verde{
+
+.verde {
     height: 15px;
     width: 15px;
     padding-right: 10px;
 }
-h3{
+
+h3 {
     font-family: 'PT Sans', sans-serif;
     font-weight: 900;
     font-size: 25px;
 }
-.qualificado{
+
+.qualificado {
     background-color: rgb(144, 238, 144);
 }
-main .tabelas{
+
+main .tabelas {
     justify-content: space-evenly;
     display: flex;
     padding: 40px;
 }
+
 main table {
     height: 50px;
     width: 500px;
 }
-.confrontos ul{
+
+.confrontos ul {
     font-size: 17px;
 }
-#infos{
+
+#infos {
     padding-top: 20px;
     padding-bottom: 50px;
 }
