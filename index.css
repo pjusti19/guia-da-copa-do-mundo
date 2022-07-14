@@ -30,7 +30,7 @@ header {
     background-image: linear-gradient(to bottom, rgb(105, 22, 47), rgb(142, 27, 62));
 }
 
-li a {
+li, li a {
     color: white;
     text-decoration: none
 }

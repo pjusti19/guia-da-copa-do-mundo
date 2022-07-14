@@ -52,7 +52,7 @@ ul {
 
 }
 
-li a {
+li, li a {
     color: white;
     text-decoration: none
 }
