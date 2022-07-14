@@ -24,7 +24,7 @@ body {
     margin: 0;
 }
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
 }
 a:link {
@@ -43,7 +43,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 1000;
 
 }

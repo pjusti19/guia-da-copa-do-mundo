@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <title>Tabela</title>
     <link rel="icon" href="imgs/taça.jpg">
-    <link rel="stylesheet" href="estilotabela.css">
+    <link rel="stylesheet" href="tabela.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <h1><b>Copa do Mundo: O Guia</b></h1>
-        <div id="nav">
+        <nav>
             <ul>
-                <li><a href="">Página Inicial</a></li>
+                <li><a href="index.html">Página Inicial</a></li>
                 <li><a href="">Seleção Brasileira</a></li>
                 <li><a href="craques.html">Craques</a></li>
                 <li><a href="tabela.html">Tabela</a></li>
@@ -25,469 +25,504 @@
                 <li><a href="">Qatar</a></li>
                 <li><a href="historia.html">História da Copa</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
-    <div>
-    <h1 class="titulo">TABELA</h1>
-    <p class="legenda">pts: pontos</p>
-    <p class="legenda"> j: jogos</p>
-    <p class="legenda">gp: gols-pró</p>
-    <p class="legenda">s: saldo de gols</p>
-    </div>
-    <table>
-        <section id="GRUPO A">
-            <tr>
-                <th>GRUPO A</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>HOLANDA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+    <main>
+        <div id="infos">
+            <h1 class="titulo">TABELA</h1>
+            <p class="legenda">Pontos (pts)</p>
+            <p class="legenda">Jogos (j)</p>
+            <p class="legenda">Gols-pró (gp)</p>
+            <p class="legenda">Saldo de gols (s)</p>
+            <p class="legenda"><img src="imgs/verde.png" class="verde">Oitavas de Final</p>
+        </div>
+        <section id="GRUPO A" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO A</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th> <br><img src="imgs/holanda.png" class="bandeira"></br>HOLANDA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>EQUADOR</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>SENEGAL</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>QATAR</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-    </table>
-    <article>
-        <h3>Confrontos</h3>
-        <ul>
-            <li>Senegal X Holanda (21/11, segunda - 07h00)</li>
-            <li>Qatar X Equador (21/11, segunda - 13h00)</li>
-            <li>Qatar X Senegal (25/11, sexta - 10h00)</li>
-            <li>Holanda X Equador (25/11, sexta - 13h00)</li>
-            <li>Equador X Senegal (29/11, terça - 12h00)</li>
-            <li>Holanda X Qatar (29/11, terça - 12h00)</li>
-        </ul>
-    </article>
-    </section>
-    <section id="GRUPO B">
-        <table>
-            <tr>
-                <th>GRUPO B</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>INGLATERRA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>2º</th>
-                <th>PAÍS DE GALES</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>ESTADOS UNIDOS</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>IRÃ</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Inglaterra X Irã (21/11, segunda - 10h00)</li>
-                <li>Estados Unidos X País de Gales (21/11, segunda - 16h00)</li>
-                <li>País de Gales X Irã (25/11, sexta - 07h00)</li>
-                <li>Inglaterra X Estados Unidos (25/11, sexta - 16h00)</li>
-                <li>País de Gales X Inglaterra (29/11, terça - 16h00)</li>
-                <li>Irã X Estados Unidos (29/11, terça - 16h00)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="GRUPO C">
-        <table>
-            <tr>
-                <th>GRUPO C</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>ARGENTINA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/equador.png" class="bandeira"></br>EQUADOR</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/senegal.png" class="bandeira"></br>SENEGAL</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/qatar.webp" class="bandeira"></br>QATAR</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Senegal X Holanda (21/11, segunda - 07h00)</li>
+                    <li>Qatar X Equador (21/11, segunda - 13h00)</li>
+                    <li>Qatar X Senegal (25/11, sexta - 10h00)</li>
+                    <li>Holanda X Equador (25/11, sexta - 13h00)</li>
+                    <li>Equador X Senegal (29/11, terça - 12h00)</li>
+                    <li>Holanda X Qatar (29/11, terça - 12h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO B" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO B</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/inglaterra.png" class="bandeira"></br>INGLATERRA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/gales.png" class="bandeira"></br>PAÍS DE GALES</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/eua.webp" class="bandeira"></br>ESTADOS UNIDOS</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/irã.png" class="bandeira"></br>IRÃ</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Inglaterra X Irã (21/11, segunda - 10h00)</li>
+                    <li>Estados Unidos X País de Gales (21/11, segunda - 16h00)</li>
+                    <li>País de Gales X Irã (25/11, sexta - 07h00)</li>
+                    <li>Inglaterra X Estados Unidos (25/11, sexta - 16h00)</li>
+                    <li>País de Gales X Inglaterra (29/11, terça - 16h00)</li>
+                    <li>Irã X Estados Unidos (29/11, terça - 16h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO C" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO C</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/argentina.webp" class="bandeira"></br>ARGENTINA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>MÉXICO</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>POLÔNIA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>ARÁBIA SAUDITA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Argentina X Arábia Saudita (22/11, terça - 07h00)</li>
-                <li>México X Polônia (22/11, terça - 13h00)</li>
-                <li>Polônia X Arábia Saudita (26/11, sábado - 10h00)</li>
-                <li>Argentina X México (26/11, sábado - 13h00)</li>
-                <li>Polônia X Argentina (30/11, quarta - 16h00)</li>
-                <li>Arábia Saudita X México (30/11, quarta - 16h00)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="GRUPO D">
-        <table>
-            <tr>
-                <th>GRUPO D</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>FRANÇA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/mexico.png" class="bandeira"></br>MÉXICO</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/polonia.png" class="bandeira"></br>POLÔNIA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/arabia.png" class="bandeira"></br>ARÁBIA SAUDITA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Argentina X Arábia Saudita (22/11, terça - 07h00)</li>
+                    <li>México X Polônia (22/11, terça - 13h00)</li>
+                    <li>Polônia X Arábia Saudita (26/11, sábado - 10h00)</li>
+                    <li>Argentina X México (26/11, sábado - 13h00)</li>
+                    <li>Polônia X Argentina (30/11, quarta - 16h00)</li>
+                    <li>Arábia Saudita X México (30/11, quarta - 16h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO D" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO D</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/frança.png" class="bandeira"></br>FRANÇA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>DINAMARCA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>AUSTRÁLIA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>TUNÍSIA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Dinamarca X Tunísia (22/11, terça - 10h00)</li>
-                <li>França X Austrália (22/11, terça - 16h00)</li>
-                <li>Tunísia X Austrália (26/11, sábado - 07h00)</li>
-                <li>França X Dinamarca (26/11, sábado - 16h00)</li>
-                <li>Austrália X Dinamarca (30/11, quarta - 16h00)</li>
-                <li>Tunísia X França (30/11, quarta - 16h00)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="GRUPO E">
-        <table>
-            <tr>
-                <th>GRUPO E</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>ESPANHA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/dinamarca.png" class="bandeira"></br>DINAMARCA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/australia.png" class="bandeira"></br>AUSTRÁLIA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/tunisia.webp" class="bandeira"></br>TUNÍSIA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Dinamarca X Tunísia (22/11, terça - 10h00)</li>
+                    <li>França X Austrália (22/11, terça - 16h00)</li>
+                    <li>Tunísia X Austrália (26/11, sábado - 07h00)</li>
+                    <li>França X Dinamarca (26/11, sábado - 16h00)</li>
+                    <li>Austrália X Dinamarca (30/11, quarta - 16h00)</li>
+                    <li>Tunísia X França (30/11, quarta - 16h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO E" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO E</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/espanha.png" class="bandeira"></br>ESPANHA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>ALEMANHA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>JAPÃO</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>COSTA RICA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Alemanha X Japão (23/11, quarta - 10h00)</li>
-                <li>Espanha X Costa Rica (23/11, quarta - 13h00)</li>
-                <li>Japão X Costa Rica (27/11, domingo - 07h00)</li>
-                <li>Espanha X Alemanha (27/11, domingo - 16h00)</li>
-                <li>Japão X Espanha (01/12, quinta - 16h00)</li>
-                <li>Costa Rica X Alemanha (01/12, quinta - 16h00)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="GRUPO F">
-        <table>
-            <tr>
-                <th>GRUPO F</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>CROÁCIA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/alemanha.jpg" class="bandeira"></br>ALEMANHA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/japao.webp" class="bandeira"></br>JAPÃO</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/costa.webp" class="bandeira"></br>COSTA RICA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Alemanha X Japão (23/11, quarta - 10h00)</li>
+                    <li>Espanha X Costa Rica (23/11, quarta - 13h00)</li>
+                    <li>Japão X Costa Rica (27/11, domingo - 07h00)</li>
+                    <li>Espanha X Alemanha (27/11, domingo - 16h00)</li>
+                    <li>Japão X Espanha (01/12, quinta - 16h00)</li>
+                    <li>Costa Rica X Alemanha (01/12, quinta - 16h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO F" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO F</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/croacia.png" class="bandeira"></br>CROÁCIA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>MARROCOS</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>BÉLGICA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>CANADÁ</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Marrocos X Croácia (23/11, quarta - 07h00)</li>
-                <li>Bélgica X Canadá (23/11, quarta - 16h00)</li>
-                <li>Bélgica X Marrocos (27/11, domingo - 10h00)</li>
-                <li>Croácia X Canadá (27/11, domingo - 13h00)</li>
-                <li>Croácia X Bélgica (01/12, quinta - 12h00)</li>
-                <li>Canadá X Marrocos (01/12, quinta - 12h00)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="GRUPO G">
-        <table>
-            <tr>
-                <th>GRUPO G</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>SUÍÇA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/marrocos.png" class="bandeira"></br>MARROCOS</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/belgica.jpg" class="bandeira"></br>BÉLGICA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/canadá.jpg" class="bandeira"></br>CANADÁ</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Marrocos X Croácia (23/11, quarta - 07h00)</li>
+                    <li>Bélgica X Canadá (23/11, quarta - 16h00)</li>
+                    <li>Bélgica X Marrocos (27/11, domingo - 10h00)</li>
+                    <li>Croácia X Canadá (27/11, domingo - 13h00)</li>
+                    <li>Croácia X Bélgica (01/12, quinta - 12h00)</li>
+                    <li>Canadá X Marrocos (01/12, quinta - 12h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO G" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO G</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/suiça.webp" class="bandeira"></br>SUÍÇA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>BRASIL</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>SÉRVIA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>CAMARÕES</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Suíça X Camarões (24/11, quinta - 07h00)</li>
-                <li>Brasil X Sérvia (24/11, quinta - 16h00)</li>
-                <li>Camarôes X Sérvia (28/11, segunda - 07h00)</li>
-                <li>Brasil X Suíça (28/11, segunda - 13h00)</li>
-                <li>Sérvia X Suíça (02/12, sexta - 16h00)</li>
-                <li>Camarôes X Brasil (02/12, sexta - 16h00)</li>
-            </ul>
-        </article>
-    </section>
-    <section id="GRUPO H">
-        <table>
-            <tr>
-                <th>GRUPO H</th>
-                <th></th>
-                <th>PTS</th>
-                <th>J</th>
-                <th>GP</th>
-                <th>S</th>
-            </tr>
-            <tr>
-                <th>1º</th>
-                <th>PORTUGAL</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/brasil.jpg" class="bandeira"></br>BRASIL</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/servia.png" class="bandeira"></br>SÉRVIA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/camaroes.png" class="bandeira"></br>CAMARÕES</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Suíça X Camarões (24/11, quinta - 07h00)</li>
+                    <li>Brasil X Sérvia (24/11, quinta - 16h00)</li>
+                    <li>Camarôes X Sérvia (28/11, segunda - 07h00)</li>
+                    <li>Brasil X Suíça (28/11, segunda - 13h00)</li>
+                    <li>Sérvia X Suíça (02/12, sexta - 16h00)</li>
+                    <li>Camarôes X Brasil (02/12, sexta - 16h00)</li>
+                </ul>
+            </article>
+        </section>
+        <section id="GRUPO H" class="tabelas">
+            <table>
+                <thead>
+                    <tr>
+                        <th>GRUPO H</th>
+                        <th></th>
+                        <th>PTS</th>
+                        <th>J</th>
+                        <th>GP</th>
+                        <th>S</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="qualificado">1º</th>
+                        <th><br><img src="imgs/portugal.webp" class="bandeira"></br>PORTUGAL</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
 
-            <tr>
-                <th>2º</th>
-                <th>URUGUAI</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>3º</th>
-                <th>CORÉIA DO SUL</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                <th>4º</th>
-                <th>GANA</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-                <th>0</th>
-            </tr>
-        </table>
-        <article>
-            <h3>Confrontos</h3>
-            <ul>
-                <li>Uruguai X Coreia do Sul (24/11, quinta - 10h00)</li>
-                <li>Portugal X Gana (24/11, quinta - 13h00)</li>
-                <li>Coreia do Sul X Gana (28/11, segunda - 10h00)</li>
-                <li>Portugal X Uruguai (28/11, segunda - 16h00)</li>
-                <li>Gana X Uruguai (02/12, sexta - 12h00)</li>
-                <li>Coreia do Sul X Portugal (02/12, sexta - 12h00)</li>
-            </ul>
-        </article>
-    </section>
+                    <tr>
+                        <th class="qualificado">2º</th>
+                        <th><br><img src="imgs/uruguai.png" class="bandeira"></br>URUGUAI</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>3º</th>
+                        <th><br><img src="imgs/coreia.png" class="bandeira"></br>CORÉIA DO SUL</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                    <tr>
+                        <th>4º</th>
+                        <th><br><img src="imgs/gana.png" class="bandeira"></br>GANA</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                        <th>0</th>
+                    </tr>
+                </tbody>
+            </table>
+            <article class="confrontos">
+                <h3>Confrontos</h3>
+                <ul>
+                    <li>Uruguai X Coreia do Sul (24/11, quinta - 10h00)</li>
+                    <li>Portugal X Gana (24/11, quinta - 13h00)</li>
+                    <li>Coreia do Sul X Gana (28/11, segunda - 10h00)</li>
+                    <li>Portugal X Uruguai (28/11, segunda - 16h00)</li>
+                    <li>Gana X Uruguai (02/12, sexta - 12h00)</li>
+                    <li>Coreia do Sul X Portugal (02/12, sexta - 12h00)</li>
+                </ul>
+            </article>
+        </section>
+    </main>
     <footer id="footer">
         <img class="logo-footer" src="imgs/qatar.png" alt="Logo da copa do mundo do Qatar">
         <p class="texto-rodape">
             © O nome "Copa do Mundo: O Guia" apresenta direitos autorais, saiba mais em: <a
                 href="http://www.planalto.gov.br/ccivil_03/leis/l9610.htm">direitos autorais.</a>
         </p>
-    
+
     </footer>
 
 </body>

@@ -9,7 +9,7 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 header {
@@ -23,7 +23,7 @@ body {
     margin: 0;
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 a:link {
     color: bisque
@@ -41,7 +41,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 1000;
 
 }
@@ -77,8 +77,15 @@ li a {
     vertical-align: top;
 }
 th{
-    border: 1px solid black;
-    padding: 10px;
+    border: 3px solid rgb(116, 116, 116);
+    padding-top: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+    font-family: 'PT Sans', sans-serif;
 }
 table{
     border-collapse: collapse;
@@ -87,9 +94,8 @@ table{
     font-size: 60px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
-    margin-top: 20px;
     padding: 10px;
 }
 .legenda, p{
@@ -99,4 +105,29 @@ table{
     color: rgb(146, 143, 143);
     font-size: 15px;
     margin: 7px;
+}
+.confrontos ul{
+    flex-direction: column;
+    justify-content: center;
+}
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bandeira{
+    justify-content: flex-start;
+    width: 30px;
+    height: 20px;
+}
+.verde{
+    height: 15px;
+    width: 15px;
+    padding-right: 10px;
+}
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+}
+.qualificado{
+    background-color: rgb(144, 238, 144);
 }
