@@ -51,32 +51,24 @@ li a {
     color: white;
     text-decoration: none
 }
-#footer p {
-    color: azure
-}
-
-#footer .logo-footer {
-    height: 175px;
-    width: 125px;
-}
-
-#footer {
+footer {
     margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
     background-color: rgba(0, 0, 0, .7);
     padding: 1em;
-    clear: right;
+}
+footer h3{
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;  
 }
 
-#footer p {
-    display: flex;
-}
-#footer .texto-rodape {
-    display: inline-block;
-    width: calc(100% - 215px - 2em - 2em);
-    margin-left: 1em;
-    vertical-align: top;
+footer {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 1em;
 }
 img{
     display: block;

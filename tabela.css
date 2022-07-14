@@ -49,32 +49,19 @@ li a {
     color: white;
     text-decoration: none
 }
-#footer p {
-    color: azure
+footer h3{
+    text-align: center;
 }
-
-#footer .logo-footer {
-    height: 175px;
-    width: 125px;
-}
-
-#footer {
-    margin-top: 30px;
+footer ul{
+    list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;  
+}
+
+footer {
+    margin-top: 30px;
     background-color: rgba(0, 0, 0, .7);
     padding: 1em;
-    clear: right;
-}
-
-#footer p {
-    display: flex;
-}
-#footer .texto-rodape {
-    display: inline-block;
-    width: calc(100% - 215px - 2em - 2em);
-    margin-left: 1em;
-    vertical-align: top;
 }
 th{
     border: 3px solid rgb(116, 116, 116);
@@ -86,6 +73,7 @@ th{
     width: 50px;
     height: 30px;
     font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
 }
 table{
     border-collapse: collapse;
@@ -109,6 +97,8 @@ table{
 .confrontos ul{
     flex-direction: column;
     justify-content: center;
+    height: 200px;
+    width: 300px;
 }
 main {
     margin-left: 5%;
@@ -127,7 +117,24 @@ main {
 h3{
     font-family: 'PT Sans', sans-serif;
     font-weight: 900;
+    font-size: 25px;
 }
 .qualificado{
     background-color: rgb(144, 238, 144);
+}
+main .tabelas{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 40px;
+}
+main table {
+    height: 50px;
+    width: 500px;
+}
+.confrontos ul{
+    font-size: 17px;
+}
+#infos{
+    padding-top: 20px;
+    padding-bottom: 50px;
 }

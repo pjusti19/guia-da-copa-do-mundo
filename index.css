@@ -49,22 +49,10 @@ h1 {
     display: flex;
     justify-content: center;
 }
-
-#footer .logo-rodape {
-    margin-right: 1em;
-}
-
-#footer .texto-rodape {
-    display: inline-block;
-    width: calc(100% - 215px - 2em - 2em);
-    margin-left: 1em;
-    vertical-align: top;
-}
-
-#footer {
+footer {
+    margin-top: 30px;
     background-color: rgba(0, 0, 0, .7);
     padding: 1em;
-    clear: right;
 }
 
 a:link {
@@ -78,25 +66,20 @@ a:hover {
     color: rgb(236, 146, 72)
 }
 
-#footer p {
-    color: azure
+footer h3{
+    text-align: center;
 }
-
-#footer .logo-footer {
-    height: 175px;
-    width: 125px;
-}
-
-#footer {
-    margin-top: 30px;
+footer ul{
+    list-style: none;
     display: flex;
-    justify-content: space-around;
-}
-
-#footer p {
-    display: flex;
+    justify-content: space-evenly;  
 }
 section p{
     margin-top: 40px;
     margin-bottom: 40px;
+}
+h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
 }
