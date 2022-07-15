@@ -23,6 +23,7 @@ header {
 body {
     margin: 0;
 }
+
 @font-face {
     font-family: Qatar;
     src: url(font/Qatar.ttf);
@@ -94,6 +95,7 @@ img {
     width: auto;
     height: auto;
 }
+
 h3{
     font-weight: 900;
     font-size: 25px;
@@ -107,7 +109,7 @@ section{
 html{
     background-image: url(imgs/fundo.jpg);
 }
-.sheik{
-    width: 420px;
+.lgbt{
+    width: 470px;
     height: 310px;
 }

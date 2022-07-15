@@ -26,7 +26,7 @@ body {
 h1 {
     color: blue;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
 }
 
 a:link {
@@ -41,13 +41,18 @@ a:hover {
     color: rgb(236, 146, 72)
 }
 
+@font-face {
+    font-family: Qatar;
+    src: url(font/Qatar.ttf);
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-weight: 1000;
 
 }
@@ -74,7 +79,7 @@ footer {
 }
 
 h3 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-weight: 900;
     font-size: 25px;
 }
@@ -82,4 +87,7 @@ h3 {
 h1 {
     color: blue;
     text-align: center;
+}
+h2{
+    font-family: Qatar;
 }

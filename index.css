@@ -18,9 +18,8 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-weight: 1000;
-
 }
 
 header {
@@ -39,8 +38,13 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: Qatar;
+    src: url(font/Qatar.ttf);
+}
+
 h1 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
 }
 
 #imagem-principal {

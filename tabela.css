@@ -23,8 +23,13 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: Qatar;
+    src: url(font/Qatar.ttf);
+}
+
 h1 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
 }
 
 a:link {
@@ -45,7 +50,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-weight: 1000;
 
 }
@@ -80,7 +85,7 @@ th {
     border-radius: 10px;
     width: 50px;
     height: 30px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-size: 20px;
 }
 
@@ -92,7 +97,7 @@ table {
     font-size: 60px;
     display: flex;
     justify-content: center;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     margin: 0;
     padding: 10px;
 }
@@ -132,7 +137,7 @@ main {
 }
 
 h3 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-weight: 900;
     font-size: 25px;
 }
