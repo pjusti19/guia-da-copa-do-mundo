@@ -6,10 +6,8 @@ header h1 {
 }
 
 p {
-    margin-left: 10%;
-    margin-right: 10%;
     font-size: 18px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
 }
 
 header {
@@ -24,7 +22,7 @@ body {
 }
 
 h1 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
 }
 
 a:link {
@@ -39,24 +37,28 @@ a:hover {
     color: rgb(236, 146, 72)
 }
 
-ul {
-    list-style-type: none;
+nav ul {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 1000;
-
+    list-style-type: none;
 }
-
-li, li a {
+ul{
+    font-family: Qatar;
+    font-weight: 1000;
+}
+aside ul{
+    list-style-type: none;
+}
+nav li, li a {
     color: white;
     text-decoration: none
 }
 
 footer h3 {
     text-align: center;
+    color: wheat;
 }
 
 footer ul {
@@ -67,12 +69,42 @@ footer ul {
 
 footer {
     margin-top: 30px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0);
     padding: 1em;
 }
 
 h3 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar;
     font-weight: 900;
     font-size: 25px;
+}
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 10px solid rgb(95, 12, 37);
+    margin: 6em;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+    background-color: rgb(255, 255, 255);
+}
+html{
+    background-image: url(imgs/fundo.jpg);
+}
+@font-face {
+    font-family: Qatar;
+    src: url(font/Qatar.ttf);
+}
+h2{
+    font-weight: 900;
+    font-size: 25px;
+    font-family: Qatar;
+}
+.bandeira {
+    justify-content: flex-start;
+    width: 30px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

@@ -99,10 +99,10 @@ h3{
     font-size: 25px;
 }
 section{
-    border: 2px solid rgb(105, 22, 47);
+    border: 10px solid rgb(95, 12, 37);
     margin: 6em;
     padding: 4em;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(255, 255, 255);
 }
 html{
     background-image: url(imgs/fundo.jpg);

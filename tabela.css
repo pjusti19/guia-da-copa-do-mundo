@@ -55,13 +55,14 @@ ul {
 
 }
 
-li, li a {
+nav li, li a {
     color: white;
     text-decoration: none
 }
 
 footer h3 {
     text-align: center;
+    color: wheat;
 }
 
 footer ul {
@@ -72,7 +73,7 @@ footer ul {
 
 footer {
     margin-top: 30px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0);
     padding: 1em;
 }
 
@@ -122,6 +123,13 @@ p {
 main {
     margin-left: 5%;
     margin-right: 5%;
+    border: 10px solid rgb(95, 12, 37);
+    margin: 6em;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+    background-color: rgb(255, 255, 255);
 }
 
 .bandeira {
@@ -162,6 +170,11 @@ main table {
 }
 
 #infos {
-    padding-top: 20px;
     padding-bottom: 50px;
+}
+.confrontos h3{
+    padding-bottom: 40px;
+}
+html{
+    background-image: url(imgs/fundo.jpg);
 }

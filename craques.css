@@ -64,6 +64,7 @@ li, li a {
 
 footer h3 {
     text-align: center;
+    color: wheat;
 }
 
 footer ul {
@@ -74,7 +75,7 @@ footer ul {
 
 footer {
     margin-top: 30px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0);
     padding: 1em;
 }
 
@@ -90,4 +91,15 @@ h1 {
 }
 h2{
     font-family: Qatar;
+}
+html{
+    background-image: url(imgs/fundo.jpg);
+}
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 10px solid rgb(95, 12, 37);
+    margin: 6em;
+    padding: 4em;
+    background-color: rgb(255, 255, 255);
 }
