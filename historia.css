@@ -8,6 +8,7 @@ header h1 {
 p {
     font-size: 18px;
     font-family: Qatar;
+    margin: 0;
 }
 
 header {
@@ -107,4 +108,13 @@ h2{
     height: 20px;
     padding-left: 10px;
     padding-right: 10px;
+}
+#taça{
+    text-align: center;
+}
+.amarelo{
+    background-color: rgb(248, 248, 142);
+}
+.verde{
+    background-color: rgb(153, 245, 153);
 }
