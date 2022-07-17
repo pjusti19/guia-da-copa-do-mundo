@@ -9,17 +9,8 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 18px;
-    font-family: Qatar, sans-serif;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    font-family: Qatar, sans-serif;
-    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 header {
@@ -27,11 +18,6 @@ header {
     margin: 0;
     padding: 10px;
     background-image: linear-gradient(to bottom, rgb(105, 22, 47), rgb(142, 27, 62));
-}
-
-li, li a {
-    color: white;
-    text-decoration: none
 }
 
 body {
@@ -43,21 +29,16 @@ body {
     src: url(font/Qatar.ttf);
 }
 
-h1 {
-    font-family: Qatar, sans-serif;
+h1,
+h2,
+h3 {
+    font-family: Qatar;
+    text-align: center;
 }
 
-#imagem-principal {
-    width: 100%;
-    height: 900px;
-    display: flex;
-    justify-content: center;
-}
-
-footer {
-    margin-top: 30px;
-    background-color: rgba(0, 0, 0);
-    padding: 1em;
+h2, h3 {
+    font-weight: 900;
+    font-size: 25px;
 }
 
 a:link {
@@ -72,6 +53,22 @@ a:hover {
     color: rgb(236, 146, 72)
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: Qatar;
+    font-weight: 1000;
+    text-align: center;
+}
+
+li, li a {
+    color: white;
+    text-decoration: none
+}
+
 footer h3 {
     text-align: center;
     color: wheat;
@@ -81,6 +78,12 @@ footer ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0);
+    padding: 1em;
 }
 
 section p {
@@ -93,9 +96,33 @@ h3 {
     font-weight: 900;
     font-size: 25px;
 }
-a{
+
+a {
     cursor: pointer;
 }
+
+html {
+    background-image: url(imgs/fundo.jpg);
+}
+
+main {
+    border: 10px solid rgb(95, 12, 37);
+    margin: 6em;
+    padding: 4em;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    max-width: 60%;
+    max-height: 60%;
+}
+
+#primeira-imagem {
+    max-width: 80%;
+}
+
 #retornar-topo{
     background-color: #00000091;
     border-radius: 100%;
@@ -103,9 +130,10 @@ a{
     bottom: 2em;
     right: 1em;
 }
+
 #retornar-topo h1 a{
     text-decoration: none;
     padding: 1em;
     color: white;
     text-align: center;
-}
+} 
