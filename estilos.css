@@ -11,6 +11,8 @@ p {
     font-size: 18px;
     font-family: Qatar, sans-serif;
     text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 header {
