@@ -9,7 +9,7 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 18px;
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
 }
 
 header {
@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
 }
 
 a:link {
@@ -50,7 +50,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
     font-weight: 1000;
 
 }
@@ -78,7 +78,7 @@ footer {
 }
 
 h3 {
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
     font-weight: 900;
     font-size: 25px;
 }

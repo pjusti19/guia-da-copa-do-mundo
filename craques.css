@@ -9,7 +9,7 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 18px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Qatar, sans-serif;
 }
 
 header {
@@ -26,7 +26,7 @@ body {
 h1 {
     color: blue;
     text-align: center;
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
 }
 
 a:link {
@@ -52,7 +52,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
     font-weight: 1000;
 
 }
@@ -80,7 +80,7 @@ footer {
 }
 
 h3 {
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
     font-weight: 900;
     font-size: 25px;
 }
@@ -90,7 +90,7 @@ h1 {
     text-align: center;
 }
 h2{
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
 }
 html{
     background-image: url(imgs/fundo.jpg);
@@ -158,7 +158,7 @@ h1 {
 }
 a{
     cursor: pointer;
-
+}
 #textodijk {
     position: absolute; top: 3050px; left: 450px;
 }
