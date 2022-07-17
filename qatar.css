@@ -113,3 +113,6 @@ html{
     width: 470px;
     height: 310px;
 }
+a{
+    cursor: pointer;
+}

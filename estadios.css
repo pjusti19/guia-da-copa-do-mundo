@@ -96,3 +96,6 @@ main {
 html{
     background-image: url(imgs/fundo.jpg);
 }
+a{
+    cursor: pointer;
+}

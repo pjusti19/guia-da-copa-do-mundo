@@ -111,3 +111,6 @@ html{
     width: 420px;
     height: 310px;
 }
+a{
+    cursor: pointer;
+}

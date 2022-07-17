@@ -109,20 +109,10 @@ h1 {
     text-align: center;
 }
 
-.craques1 {
-    max-width: 375px;
-    max-height: 250px;
-    width: auto;
-    height: auto;
+.craques1, .craques2{
+    width: 375px;
+    height: 250px;
 }
-
-.craques2 {
-    max-width:375px;
-    max-height:250px;
-    width: auto;
-    height: auto;
-}
-
 #melhores {
     justify-content: center;
 }
@@ -165,4 +155,7 @@ h1 {
 
 #textodebruyne {
     position: absolute; top: 2760px; left: 450px;
+}
+a{
+    cursor: pointer;
 }

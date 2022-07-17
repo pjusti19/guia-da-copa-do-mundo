@@ -118,3 +118,6 @@ h2{
 .verde{
     background-color: rgb(153, 245, 153);
 }
+a{
+    cursor: pointer;
+}
