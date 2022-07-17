@@ -9,7 +9,7 @@ p {
     margin-left: 10%;
     margin-right: 10%;
     font-size: 18px;
-    font-family: Qatar, sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 header {
@@ -26,7 +26,7 @@ body {
 h1 {
     color: blue;
     text-align: center;
-    font-family: Qatar, sans-serif;
+    font-family: Qatar;
 }
 
 a:link {
@@ -52,7 +52,7 @@ ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    font-family: Qatar, sans-serif;
+    font-family: Qatar;
     font-weight: 1000;
 
 }
@@ -80,7 +80,7 @@ footer {
 }
 
 h3 {
-    font-family: Qatar, sans-serif;
+    font-family: Qatar;
     font-weight: 900;
     font-size: 25px;
 }
@@ -90,7 +90,7 @@ h1 {
     text-align: center;
 }
 h2{
-    font-family: Qatar, sans-serif;
+    font-family: Qatar;
 }
 html{
     background-image: url(imgs/fundo.jpg);
@@ -114,7 +114,9 @@ h1 {
     height: 250px;
 }
 #melhores {
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #vini {
@@ -134,63 +136,96 @@ h1 {
 }
 
 #textodavies {
-    position: absolute; top: 1130px; left: 450px;
+    position: absolute; top: 1160px; left: 450px;
 }
 
 #textonunez {
-    position: absolute; top: 1450px; left: 450px;
+    position: absolute; top: 1490px; left: 450px;
 }
 
 #textopedri {
-    position: absolute; top: 1750px; left: 420px;
+    position: absolute; top: 1820px; left: 450px;
 }
 
 #textofelix {
-    position: absolute; top: 2080px; left: 450px; 
+    position: absolute; top: 2150px; left: 450px; 
 }
 
 #textomodric {
-    position: absolute; top: 2470px; left: 450px;
+    position: absolute; top: 2540px; left: 450px;
 }
 
 #textodebruyne {
-    position: absolute; top: 2760px; left: 450px;
+    position: absolute; top: 2860px; left: 450px;
 }
-a{
+a {
     cursor: pointer;
-}
+}    
+
 #textodijk {
-    position: absolute; top: 3050px; left: 450px;
+    position: absolute; top: 3200px; left: 450px;
 }
 
-#bale {
-    position: absolute; top: 3350px; left: 430px;
+#textobale {
+    position: absolute; top: 3530px; left: 450px;
 }
 
 #textosuarez {
-    position: absolute; top: 3680px; left: 450px;
+    position: absolute; top: 3860px; left: 450px;
 }
 
 #textomane {
-    position: absolute; top: 4030px; left: 450px;
+    position: absolute; top: 4200px; left: 450px;
 }
 
 #textokoulibaly {
-    position: absolute; top: 4335px; left: 450px;
+    position: absolute; top: 4520px; left: 450px;
 }
 
 #textolewa {
-    position: absolute; top: 4640px; left: 450px;
+    position: absolute; top: 4850px; left: 450px;
 }
 
 #textokroos {
-    position: absolute; top: 4940px; left: 450px;
+    position: absolute; top: 5180px; left: 450px;
 }
 
 #textoneuer {
-    position: absolute; top: 5240px; left: 450px;
+    position: absolute; top: 5510px; left: 450px;
 }
 
 #textodimaria {
-    position: absolute; top: 5550px; left: 350px;
+    position: absolute; top: 5840px; left: 450px;
 }    
+
+#textoson {
+    position: absolute; top: 6170px; left: 450px;
+}
+
+#textonavas {
+    position: absolute; top: 6500px; left: 450px;
+}
+
+#textoneymar {
+    position: absolute; top: 7310px; left: 450px;
+}
+
+#textomessi {
+    position: absolute; top: 7645px; left: 450px;
+}
+
+#textocr7 {
+    position: absolute; top: 7980px; left: 450px;
+}
+
+#textodejong {
+    position: absolute; top: 8360px; left: 450px;
+}
+
+#textombappe {
+    position: absolute; top: 8700px; left: 450px;
+}
+
+#textokane {
+    position: absolute; top: 9030px; left: 450px;
+}
