@@ -1,4 +1,4 @@
-header h1 {
+header h1{
     color: white;
     margin-left: 10%;
     text-align: left;
@@ -86,7 +86,7 @@ h3 {
 }
 
 h1 {
-    color: blue;
+    color: black;
     text-align: center;
 }
 h2{
@@ -102,4 +102,67 @@ main {
     margin: 6em;
     padding: 4em;
     background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+.craques1 {
+    max-width: 375px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.craques2 {
+    max-width:375px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+#melhores {
+    justify-content: center;
+}
+
+#vini {
+    position: absolute; top: 400px; left: 700px;
+}
+
+#textovini {
+    position: absolute; top: 490px; left: 450px;
+}
+
+.nomes {
+    margin-left: 550px;
+}
+
+#textorodrygo {
+    position: absolute; top: 830px; left: 450px;
+}
+
+#textodavies {
+    position: absolute; top: 1130px; left: 450px;
+}
+
+#textonunez {
+    position: absolute; top: 1450px; left: 450px;
+}
+
+#textopedri {
+    position: absolute; top: 1750px; left: 420px;
+}
+
+#textofelix {
+    position: absolute; top: 2080px; left: 450px; 
+}
+
+#textomodric {
+    position: absolute; top: 2470px; left: 450px;
+}
+
+#textodebruyne {
+    position: absolute; top: 2760px; left: 450px;
 }
