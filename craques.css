@@ -158,4 +158,39 @@ h1 {
 }
 a{
     cursor: pointer;
+
+#textodijk {
+    position: absolute; top: 3050px; left: 450px;
 }
+
+#bale {
+    position: absolute; top: 3350px; left: 430px;
+}
+
+#textosuarez {
+    position: absolute; top: 3680px; left: 450px;
+}
+
+#textomane {
+    position: absolute; top: 4030px; left: 450px;
+}
+
+#textokoulibaly {
+    position: absolute; top: 4335px; left: 450px;
+}
+
+#textolewa {
+    position: absolute; top: 4640px; left: 450px;
+}
+
+#textokroos {
+    position: absolute; top: 4940px; left: 450px;
+}
+
+#textoneuer {
+    position: absolute; top: 5240px; left: 450px;
+}
+
+#textodimaria {
+    position: absolute; top: 5550px; left: 350px;
+}    
