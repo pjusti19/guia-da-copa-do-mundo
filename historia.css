@@ -121,6 +121,17 @@ h2{
 a{
     cursor: pointer;
 }
-#baixo #campeões, #baixo #curiosidades{
-    flex-direction: row;
+#baixo{
+    display: flex;
+}
+#curiosidades, #campeões{
+    flex-direction: column;
+    margin: 40px;
+}
+#curiosidades{
+    width: 70%;
+}
+.medalha{
+    width: 20px;
+    height: 20px;
 }

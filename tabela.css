@@ -67,7 +67,6 @@ footer h3 {
 
 footer ul {
     list-style: none;
-    display: flex;
     justify-content: space-evenly;
 }
 
@@ -75,6 +74,7 @@ footer {
     margin-top: 30px;
     background-color: rgba(0, 0, 0);
     padding: 1em;
+    display: flex;
 }
 
 th {
