@@ -104,12 +104,12 @@ html{
     background-image: url(imgs/fundo.jpg);
 }
 .paisagem{
-    width: 500px;
-    height: 310px;
+    width: 450px;
+    height: 260px;
 }
 .vertical{
-    width: 350px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
 }
 a{
     cursor: pointer;
@@ -131,4 +131,10 @@ a{
     width: 80px;
     height: 60px;
     padding: 20px;
+}
+#curiosidades{
+    display: flex;
+}
+#curiosidades p{
+    width: 40%;
 }
