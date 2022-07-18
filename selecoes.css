@@ -89,10 +89,6 @@ footer {
 img {
     display: block;
     margin: 0px auto;
-    max-width: 500px;
-    max-height: 500px;
-    width: auto;
-    height: auto;
 }
 h3{
     font-weight: 900;
@@ -107,9 +103,13 @@ section{
 html{
     background-image: url(imgs/fundo.jpg);
 }
-.sheik{
-    width: 420px;
+.paisagem{
+    width: 500px;
     height: 310px;
+}
+.vertical{
+    width: 350px;
+    height: 500px;
 }
 a{
     cursor: pointer;
@@ -126,4 +126,9 @@ a{
     padding: 1em;
     color: white;
     text-align: center;
+}
+.bandeira{
+    width: 80px;
+    height: 60px;
+    padding: 20px;
 }
