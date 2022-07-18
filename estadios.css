@@ -112,3 +112,56 @@ a{
     color: white;
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+}
+
+.estadios {
+    width: 600px;
+    height: 310px;
+}
+
+.nomeestadio {
+    margin-left: 650px;
+}
+
+#textolusail {
+    position: absolute; top: 550px; left: 660px;
+}
+
+#textobayt {
+    position: absolute; top: 910px; left: 660px;
+}
+
+#textokhalifa {
+    position: absolute; top: 1300px; left: 660px;    
+}
+
+#texto974 {
+    position: absolute; top: 1700px; left : 660px;    
+}
+
+#textothumama {
+    position: absolute; top: 2070px; left : 660px;    
+}
+
+#textoeducation {
+    position: absolute; top: 2450px; left: 660px;    
+}
+
+#textobinali {
+    position: absolute; top: 2850px; left: 660px;
+}
+
+#textojanoub {
+    position: absolute; top: 3235px; left: 660px;    
+}
+
+strong {
+    color: red;
+}
+
+#polemicas {
+    margin-left: 400px;;
+}
