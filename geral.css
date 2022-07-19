@@ -489,7 +489,7 @@ a {
     margin: 6em;
     padding: 4em;
 }
-.img, .bola, .bandeira_2{
+.img, .bola, .bandeira_2, .imgbr{
     display: block;
     margin: 0px auto;
     max-height: 60%;
