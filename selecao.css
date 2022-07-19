@@ -1,35 +1,4 @@
-header h1 {
-    color: white;
-    margin-left: 10%;
-    text-align: left;
-    font-weight: bolder;
-}
 
-p {
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 18px;
-    font-family: Qatar, sans-serif;
-    text-align: justify;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-header {
-    background-color: rgb(142, 27, 62);
-    margin: 0;
-    padding: 10px;
-    background-image: linear-gradient(to bottom, rgb(105, 22, 47), rgb(142, 27, 62));
-}
-
-body {
-    margin: 0;
-}
-
-@font-face {
-    font-family: Qatar;
-    src: url(font/Qatar.ttf);
-}
 
 h1,
 h2,
@@ -87,7 +56,6 @@ footer {
     background-color: rgba(0, 0, 0);
     padding: 1em;
 }
-
 section p {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -103,15 +71,9 @@ a {
     cursor: pointer;
 }
 
-html {
-    background-image: url(imgs/fundo.jpg);
-}
-
 main {
-    border: 10px solid rgb(95, 12, 37);
     margin: 6em;
     padding: 4em;
-    background-color: rgb(255, 255, 255);
 }
 
 img {
