@@ -65,7 +65,7 @@ footer a:hover, header a:hover, #indice a:hover, #catar:hover{
     color: rgb(236, 146, 72);
 }
 
-ul {
+.lista {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -472,11 +472,20 @@ a {
 
 .fonte {
     font-size: 18px;
-    font-family: Qatar, sans-serif;
     text-align: justify;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-decoration: none;
+    font-family: Qatar, sans-serif;
+}
+.fonte:link{
     color: black;
+}
+.fonte:visited{
+    color: rgb(109, 40, 40);
+}
+.fonte:hover{
+    color:  rgb(142, 27, 62);
 }
 #catar {
     font-size: 18px;
