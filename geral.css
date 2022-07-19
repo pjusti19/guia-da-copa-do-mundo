@@ -584,3 +584,17 @@ strong {
 #polemicas {
     margin-left: 400px;
 }
+
+#convocacoes ul li  {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+#convocacoes h2 {
+    text-align: left;
+}
+
+#convocacoes ul {
+    flex-direction: column;
+}
