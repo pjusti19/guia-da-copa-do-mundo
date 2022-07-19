@@ -1,0 +1,177 @@
+header h1 {
+    color: white;
+    margin-left: 10%;
+    text-align: left;
+    font-weight: bolder;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-family: Qatar, sans-serif;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: rgb(142, 27, 62);
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgb(105, 22, 47), rgb(142, 27, 62));
+}
+
+body {
+    margin: 0;
+}
+
+.sumir {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+.desapareça video {
+    width: 100%;
+}
+
+@font-face {
+    font-family: Qatar;
+    src: url(font/Qatar.ttf);
+}
+
+h1,
+h2,
+h3 {
+    font-family: Qatar, sans-serif;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+a:link {
+    color: bisque
+}
+
+a:visited {
+    color: bisque
+}
+
+a:hover {
+    color: rgb(236, 146, 72)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: Qatar, sans-serif;
+    font-weight: 1000;
+    text-align: center;
+}
+
+li,
+li a {
+    color: white;
+    text-decoration: none
+}
+
+footer h3 {
+    text-align: center;
+    color: wheat;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0);
+    padding: 1em;
+}
+
+section p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: Qatar, sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+a {
+    cursor: pointer;
+}
+
+html {
+    background-image: url(imgs/fundo.jpg);
+}
+
+main {
+    border: 10px solid rgb(95, 12, 37);
+    margin: 6em;
+    padding: 4em;
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+    max-width: 60%;
+    max-height: 60%;
+}
+
+#primeira-imagem {
+    max-width: 80%;
+}
+
+#retornar-topo {
+    background-color: #00000091;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+}
+
+#retornar-topo h1 a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+.bola{
+    width: 200px;
+    height: 200px;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-40px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-40px);
+    }
+  }
+.easter_egg{
+    text-align: center
+}
