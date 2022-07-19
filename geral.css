@@ -208,7 +208,8 @@ main {
 
 .tabelas {
     justify-content: space-evenly;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     padding: 40px;
 }
 
