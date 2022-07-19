@@ -53,16 +53,16 @@ footer {
     src: url(font/Qatar.ttf);
 }
 
-footer a:link, header a:link {
-    color: bisque
+footer a:link, header a:link, #indice a:link, #catar:link{
+    color: bisque;
 }
 
-footer a:visited, header a:visited {
-    color: bisque
+footer a:visited, header a:visited, #indice a:visited, #catar:visited{
+    color: bisque;
 }
 
-footer a:hover, header a:hover {
-    color: rgb(236, 146, 72)
+footer a:hover, header a:hover, #indice a:hover, #catar:hover{
+    color: rgb(236, 146, 72);
 }
 
 ul {
@@ -119,8 +119,7 @@ table {
     padding: 10px;
 }
 
-.legenda 
-p {
+.legenda{
     display: flex;
     justify-content: space-between;
     justify-content: center;
@@ -199,7 +198,6 @@ main {
 #infos {
     padding-bottom: 50px;
 }
-
 .confrontos h3 {
     padding-bottom: 40px;
 }
@@ -208,13 +206,13 @@ main {
     background-color: rgb(144, 238, 144);
 }
 
-#tablas .tabelas {
+.tabelas {
     justify-content: space-evenly;
     display: flex;
     padding: 40px;
 }
 
-#tablas table {
+table {
     height: 50px;
     width: 500px;
 }
@@ -480,17 +478,24 @@ a {
     padding-bottom: 20px;
     color: black;
 }
+#catar {
+    font-size: 18px;
+    font-family: Qatar, sans-serif;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 #main_maioria {
     margin: 6em;
     padding: 4em;
 }
-.img{
+.img, .bola, .bandeira_2{
     display: block;
     margin: 0px auto;
     max-height: 60%;
     max-width: 60%;
 }
-#primeira-imagem, .img {
+.img {
     max-width: 80%;
 }
 .paisagem {
