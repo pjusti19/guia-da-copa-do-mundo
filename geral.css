@@ -640,3 +640,16 @@ h3 {
     margin-left: 1%;
     border-radius: 50%;
 }
+
+section{
+    margin-bottom: 100px;
+}
+#Foto{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    padding: 20px;
+}
+li{
+    font-family: Qatar;
+}
