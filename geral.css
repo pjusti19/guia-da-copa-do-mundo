@@ -608,3 +608,17 @@ h3 {
     font-family: Qatar;
     text-align: center;
 }
+
+#convocacoes ul li  {
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+#convocacoes h2 {
+    text-align: left;
+}
+
+#convocacoes ul {
+    flex-direction: column;
+}
