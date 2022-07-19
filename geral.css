@@ -498,7 +498,7 @@ a {
     margin: 6em;
     padding: 4em;
 }
-.img, .bola, .bandeira_2, .imgbr{
+.img, .bola, .bandeira_2{
     display: block;
     margin: 0px auto;
     max-height: 60%;
@@ -614,7 +614,7 @@ strong {
 h1,
 h2,
 h3 {
-    font-family: Qatar;
+    font-family: Qatar, sans-serif;
     text-align: center;
 }
 
@@ -652,4 +652,10 @@ section{
 }
 li{
     font-family: Qatar;
+}
+.imgbr{
+    width: 60%;
+    height: 40%;
+    display: block;
+    margin: 0px auto;
 }
