@@ -631,3 +631,6 @@ h3 {
 #convocacoes ul {
     flex-direction: column;
 }
+#musica{
+    display: flex;
+}
