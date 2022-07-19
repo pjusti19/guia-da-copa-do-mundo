@@ -1,5 +1,3 @@
-
-
 h1 {
     font-family: Qatar, sans-serif;
 }
@@ -27,7 +25,8 @@ ul {
 
 }
 
-nav li, li a {
+nav li,
+li a {
     color: white;
     text-decoration: none
 }
@@ -82,7 +81,9 @@ p {
     justify-content: center;
     color: rgb(146, 143, 143);
     font-size: 15px;
-    margin: 7px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .confrontos ul {
@@ -142,21 +143,24 @@ main table {
 #infos {
     padding-bottom: 50px;
 }
-.confrontos h3{
+
+.confrontos h3 {
     padding-bottom: 40px;
 }
 
-a{
+a {
     cursor: pointer;
 }
-#retornar-topo{
+
+#retornar-topo {
     background-color: #00000091;
     border-radius: 100%;
     position: fixed;
     bottom: 2em;
     right: 1em;
 }
-#retornar-topo h1 a{
+
+#retornar-topo h1 a {
     text-decoration: none;
     padding: 1em;
     color: white;

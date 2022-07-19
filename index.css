@@ -11,11 +11,13 @@ h3 {
     font-size: 25px;
 }
 
-header a:link, footer a:link {
+header a:link,
+footer a:link {
     color: bisque
 }
 
-header a:visited, footer a:visited {
+header a:visited,
+footer a:visited {
     color: bisque
 }
 
@@ -23,7 +25,8 @@ a:hover {
     color: rgb(236, 146, 72)
 }
 
-footer ul, header ul {
+footer ul,
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -103,32 +106,39 @@ img {
     color: white;
     text-align: center;
 }
-.bola{
+
+.bola {
     width: 200px;
     height: 200px;
     animation: bounce 1s infinite alternate;
     -webkit-animation: bounce 1s infinite alternate;
 }
+
 @keyframes bounce {
     from {
-      transform: translateY(0px);
+        transform: translateY(0px);
     }
+
     to {
-      transform: translateY(-40px);
+        transform: translateY(-40px);
     }
-  }
-  @-webkit-keyframes bounce {
+}
+
+@-webkit-keyframes bounce {
     from {
-      transform: translateY(0px);
+        transform: translateY(0px);
     }
+
     to {
-      transform: translateY(-40px);
+        transform: translateY(-40px);
     }
-  }
-.easter_egg{
+}
+
+.easter_egg {
     text-align: center
 }
-.fonte{
+
+.fonte {
     font-size: 18px;
     font-family: Qatar, sans-serif;
     text-align: justify;

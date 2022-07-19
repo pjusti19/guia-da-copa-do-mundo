@@ -31,9 +31,11 @@ body {
     font-family: Qatar;
     src: url(font/Qatar.ttf);
 }
+
 html {
     background-image: url(imgs/fundo.jpg);
 }
+
 main {
     border: 10px solid rgb(95, 12, 37);
     background-color: rgb(255, 255, 255);

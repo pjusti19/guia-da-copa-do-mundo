@@ -45,14 +45,18 @@ nav ul {
     justify-content: space-around;
     list-style-type: none;
 }
-ul{
+
+ul {
     font-family: Qatar, sans-serif;
     font-weight: 1000;
 }
-#campeões ul{
+
+#campeões ul {
     list-style-type: none;
 }
-nav li, li a {
+
+nav li,
+li a {
     color: white;
     text-decoration: none
 }
@@ -79,6 +83,7 @@ h3 {
     font-weight: 900;
     font-size: 25px;
 }
+
 main {
     margin-left: 5%;
     margin-right: 5%;
@@ -90,18 +95,22 @@ main {
     padding-bottom: 4em;
     background-color: rgb(255, 255, 255);
 }
-html{
+
+html {
     background-image: url(imgs/fundo.jpg);
 }
+
 @font-face {
     font-family: Qatar;
     src: url(font/Qatar.ttf);
 }
-h2{
+
+h2 {
     font-weight: 900;
     font-size: 25px;
     font-family: Qatar, sans-serif;
 }
+
 .bandeira {
     justify-content: flex-start;
     width: 30px;
@@ -109,40 +118,51 @@ h2{
     padding-left: 10px;
     padding-right: 10px;
 }
-#taça{
+
+#taça {
     text-align: center;
 }
-.amarelo{
+
+.amarelo {
     background-color: rgb(248, 248, 142);
 }
-.verde{
+
+.verde {
     background-color: rgb(153, 245, 153);
 }
-a{
+
+a {
     cursor: pointer;
 }
-#baixo{
+
+#baixo {
     display: flex;
 }
-#curiosidades, #campeões{
+
+#curiosidades,
+#campeões {
     flex-direction: column;
     margin: 40px;
 }
-#curiosidades{
+
+#curiosidades {
     width: 70%;
 }
-.medalha{
+
+.medalha {
     width: 20px;
     height: 20px;
 }
-#retornar-topo{
+
+#retornar-topo {
     background-color: #00000091;
     border-radius: 100%;
     position: fixed;
     bottom: 2em;
     right: 1em;
 }
-#retornar-topo h1 a{
+
+#retornar-topo h1 a {
     text-decoration: none;
     padding: 1em;
     color: white;

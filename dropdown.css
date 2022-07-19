@@ -1,4 +1,4 @@
-#indice{
+#indice {
     background-color: #00000091;
     color: white;
     position: sticky;
@@ -9,20 +9,24 @@
     padding-left: 1%;
     border-radius: 10%;
 }
-#indice ul{
+
+#indice ul {
     list-style: none;
     padding: 0;
 }
-#indice ul li ul{
+
+#indice ul li ul {
     display: none;
     list-style: none;
-    
+
 }
-#indice:hover ul li ul{
+
+#indice:hover ul li ul {
     display: inline;
     margin: 3em;
     padding: 3em;
 }
-#indice a{
+
+#indice a {
     padding-left: 20px;
 }

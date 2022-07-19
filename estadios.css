@@ -1,4 +1,3 @@
-
 h1 {
     font-family: Qatar, sans-serif;
 }
@@ -26,7 +25,8 @@ ul {
 
 }
 
-li, li a {
+li,
+li a {
     color: white;
     text-decoration: none
 }
@@ -53,6 +53,7 @@ h3 {
     font-weight: 900;
     font-size: 25px;
 }
+
 main {
     margin-left: 5%;
     margin-right: 5%;
@@ -62,17 +63,20 @@ main {
     padding-right: 4em;
     padding-bottom: 4em;
 }
-a{
+
+a {
     cursor: pointer;
 }
-#retornar-topo{
+
+#retornar-topo {
     background-color: #00000091;
     border-radius: 100%;
     position: fixed;
     bottom: 2em;
     right: 1em;
 }
-#retornar-topo h1 a{
+
+#retornar-topo h1 a {
     text-decoration: none;
     padding: 1em;
     color: white;
@@ -93,35 +97,51 @@ h1 {
 }
 
 #textolusail {
-    position: absolute; top: 550px; left: 660px;
+    position: absolute;
+    top: 550px;
+    left: 660px;
 }
 
 #textobayt {
-    position: absolute; top: 940px; left: 660px;
+    position: absolute;
+    top: 940px;
+    left: 660px;
 }
 
 #textokhalifa {
-    position: absolute; top: 1330px; left: 660px;    
+    position: absolute;
+    top: 1330px;
+    left: 660px;
 }
 
 #texto974 {
-    position: absolute; top: 1720px; left : 660px;    
+    position: absolute;
+    top: 1720px;
+    left: 660px;
 }
 
 #textothumama {
-    position: absolute; top: 2110px; left : 660px;    
+    position: absolute;
+    top: 2110px;
+    left: 660px;
 }
 
 #textoeducation {
-    position: absolute; top: 2495px; left: 660px;    
+    position: absolute;
+    top: 2495px;
+    left: 660px;
 }
 
 #textobinali {
-    position: absolute; top: 2930px; left: 660px;
+    position: absolute;
+    top: 2930px;
+    left: 660px;
 }
 
 #textojanoub {
-    position: absolute; top: 3315px; left: 660px;    
+    position: absolute;
+    top: 3315px;
+    left: 660px;
 }
 
 strong {
@@ -129,7 +149,8 @@ strong {
 }
 
 #polemicas {
-    margin-left: 400px;;
+    margin-left: 400px;
+    ;
 }
 
 h2 {
