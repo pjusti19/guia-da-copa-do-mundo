@@ -209,7 +209,8 @@ main {
 .tabelas {
     justify-content: space-evenly;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto;
     padding: 40px;
 }
 
